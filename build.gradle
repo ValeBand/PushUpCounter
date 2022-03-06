@@ -1,0 +1,40 @@
+subprojects {
+
+    buildscript {
+        repositories {
+            google()
+            mavenCentral()
+        }
+
+        dependencies {
+            classpath 'com.android.tools.build:gradle:7.1.1'
+        }
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+}
+
+ext {
+    compileSdkVersion = 31
+    minSdkVersion = 21
+
+    appVersion = 1.0
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+buildscript {
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.1'
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+}

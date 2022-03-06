@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <!-- General -->
+  <string name="app_name">Цифровой счётчик</string>
+  <string name="minus">—\nО Ш И Б К А</string>
+  <string name="error">ошибка</string>
+  <!-- Counter -->
+  <string name="start">С Т А Р Т</string>
+  <string name="stop">С Т О П</string>
+  <!-- Menu -->
+  <string name="drawer_open">Открыть навигацию</string>
+  <string name="drawer_close">Закрыть навигацию</string>
+  <string name="menu_add">Добавить счётчик</string>
+  <string name="menu_reset">Сброс</string>
+  <string name="menu_edit">Редактировать cчётчик</string>
+  <string name="menu_delete">Удалить</string>
+  <string name="menu_settings">Настройки</string>
+  <!-- Dialogs -->
+  <string name="dialog_add_title">Добавить новый счётчик</string>
+  <string name="dialog_edit_title">Изменить счётчик</string>
+  <string name="dialog_delete_title">Вы действительно хотите удалить этот счётчик?</string>
+  <string name="dialog_reset_title">Вы действительно хотите сбросить счётчик и таймер?</string>
+  <string name="dialog_edit_name">Название:</string>
+  <string name="dialog_edit_value">Значение счётчика:</string>
+  <string name="toast_unable_to_parse_time">Значение секундомера неверное</string>
+  <string name="dialog_edit_time">Значение секундомера в формате \"00,00,00\"</string>
+  <string name="dialog_button_add">Добавить</string>
+  <string name="dialog_button_apply">Применить</string>
+  <string name="dialog_button_reset">Сброс</string>
+  <string name="dialog_button_delete">Удалить</string>
+  <string name="dialog_button_cancel">Отмена</string>
+  <!-- Settings -->
+  <string name="settings_title">Настройки</string>
+  <string name="settings_display">Дисплей</string>
+  <string name="settings_theme">Стиль</string>
+  <string name="settings_theme_light">Светлый</string>
+  <string name="settings_theme_dark">Темный</string>
+  <string name="settings_theme_auto_battery">Задано энергосбережением</string>
+  <string name="settings_theme_system">Использовать системные настройки</string>
+  <string name="settings_keep_on_title">Держать экран включенным</string>
+  <string name="settings_keep_on_summary">Не выключать экран пока приложение активно</string>
+  <string name="settings_controls">Управление</string>
+  <string name="settings_sounds_title">Включить звуки</string>
+  <string name="settings_sounds_summary">Воспроизводить звуки при изменении значений счётчика</string>
+  <string name="settings_toSpeech_title">Голосовая озвучка</string>
+  <string name="settings_toSpeech_summary">Озвучивать текущее значение счётчика</string>
+  <string name="settings_speech_error_title">Фраза \"Ошибка\"</string>
+  <string name="settings_speech_error_summary">Озвучивать слово "ошибка" при уменьшении значения счётчика</string>
+  <string name="settings_autoStopwatch_title">Автостарт секундомера</string>
+  <string name="settings_autoStopwatch_summary">При приращении счётчика секундомер запустится автоматически</string>
+  <string name="settings_wifi_relay_title">Wi-Fi пульт судьи</string>
+  <string name="settings_wifi_relay_summary">Передача сигнала \"Ошибка\" по Wi-Fi. Функция рабоает только совместно со специальным приспособлением - электронной контактной платформой. Нужно включить изделие и Wi-Fi модуль на устройстве, присоединиться к точке доступа \"PushUpCounter\" с паролем \"1234567890\". Подробности в инструкции.</string>
+  <string name="settings_inverseCounter_title">Инверсия счётчика</string>
+  <string name="settings_inverseCounter_summary">При приращивании значения счётчика он уменьшится и наоборот</string>
+  <string name="settings_vibration_title">Включить вибрацию</string>
+  <string name="settings_vibration_summary">Вибрировать при изменении в значениях счётчика</string>
+  <string name="settings_hard_title">Использовать аппаратные кнопки</string>
+  <string name="settings_hard_summary">Включить модификацию счётчика с помощью кнопок регулировки громкости</string>
+  <string name="settings_label_increment_title">Реагировать на нажатие</string>
+  <string name="settings_label_increment_summary">Включить увеличение значения счётчика по нажатию на него</string>
+  <string name="settings_other">Прочее</string>
+  <string name="settings_proximity_sensor_title">Датчик приближения</string>
+  <string name="settings_proximity_sensor_summary">Использовать датчик приближения устройства для увеличения счётчика. Например - при отжимании</string>
+  <string name="settings_version_title">Версия приложения</string>
+  <string name="settings_wipe_title">Удалить все счётчики</string>
+  <string name="settings_export_title">Экспорт счётчиков</string>
+  <string name="settings_export_summary">Экспортировать все счётчики в формате CSV</string>
+  <string name="settings_wipe_confirmation">Вы действительно хотите удалить все счётчики?</string>
+  <string name="settings_wipe_confirmation_yes">Удалить все</string>
+  <!-- Toasts -->
+  <string name="toast_wipe_success">Все счётчики удалены.</string>
+  <string name="toast_delete_success">Счётчик \"%s\" удален.</string>
+  <string name="toast_no_name_message">Имя не может быть пустым!</string>
+  <string name="toast_unable_to_export">Что-то пошло не так во время экспорта.</string>
+  <string name="toast_unable_to_modify">Что-то пошло не так во время установки значения счётчика</string>
+  <!-- Other stuff -->
+  <string name="default_counter_name">Счётчик</string>
+  <string name="unknown">Неизвестно</string>
+</resources>

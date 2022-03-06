@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="AppTheme" parent="@style/Theme.AppCompat.DayNight">
+    <item name="drawableDelete">@drawable/ic_delete</item>
+    <item name="drawableEdit">@drawable/ic_edit</item>
+    <item name="drawableReset">@drawable/ic_reset</item>
+    <item name="drawableSettings">@drawable/ic_settings</item>
+  </style>
+
+  <style name="DrawerSelectTheme" parent="AppTheme">
+    <item name="colorControlHighlight">#33ffffff</item>
+  </style>
+
+  <style name="increment_button">
+    <item name="android:textSize">50sp</item>
+    <item name="android:padding">14dp</item>
+    <item name="android:background">@color/increment_color</item>
+    <item name="android:layout_marginBottom">7dp</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="decrement_button">
+    <item name="android:textSize">35sp</item>
+    <item name="android:padding">30dp</item>
+    <item name="android:background">@color/decrement_color</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="start_button">
+    <item name="android:textSize">30sp</item>
+    <item name="android:background">@color/grey</item>
+    <item name="android:layout_marginRight">3dp</item>
+    <item name="android:layout_marginBottom">6dp</item>
+    <item name="android:textColor">@color/black</item>
+  </style>
+
+  <style name="stop_button">
+    <item name="android:textSize">30sp</item>
+    <item name="android:background">@color/grey</item>
+    <item name="android:layout_marginLeft">3dp</item>
+    <item name="android:layout_marginBottom">6dp</item>
+    <item name="android:textColor">@color/black</item>
+  </style>
+
+  <style name="chronometer" parent="AppTheme">
+    <item name="android:textSize">45sp</item>
+    <item name="android:layout_marginBottom">35dp</item>
+  </style>
+</resources>

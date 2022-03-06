@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="increment_button">
+        <item name="android:textSize">120sp</item>
+    </style>
+
+    <style name="decrement_button">
+        <item name="android:textSize">120sp</item>
+    </style>
+
+</resources>

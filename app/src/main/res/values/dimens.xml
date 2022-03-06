@@ -1,0 +1,5 @@
+<resources>
+
+  <dimen name="dialog_layout_padding">16dp</dimen>
+
+</resources>
