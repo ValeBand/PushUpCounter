@@ -1,24 +1,17 @@
-# Counter ![Build status](https://img.shields.io/circleci/build/github/gentlecat/counter/master.svg?style=flat-square)
+«Цифровой счётчик» – это прикладной инструмент, который в первую очередь разработан для фиксации результата тестирования норматива испытаний ГТО: «Сгибание и разгибание рук в упоре лежа на полу» (отжимание на количество раз). Приложение самодостаточно, так как использует датчик приближения для подсчёта количества выполненных отжиманий во время тренировок. Однако, данная утилита, совместно со специальным приспособлением - электронной контактной платформой, годится в качестве пульта - регистратора, с которым обменивается командами по Bluetooth и Wi-Fi модулям. В таком случае, «Цифровой счётчик» упрощает процесс подсчета отжиманий у испытуемого, позволяя спортивному судье сконцентрироваться на фиксации нарушений, тем самым снижая влияние человеческого фактора на качество контроля испытания. Приложение можно использовать для сдачи нормативов во всех силовых структурах России, применять на спортивно-массовых и любительских мероприятиях, эксплуатировать во всех видах и типах образовательных учреждений (Школа, Лицей, СПО, Колледж, ВУЗ), а также задействовать при проведении соревнований по Полиатлону.
+Можно подсчитать что угодно, благодаря гибкости настроек «Цифрового счётчика».
+Особенности:
+✓ Воспроизведение звуков при изменении значения счётчика.
+✓ Голосовая озвучка текущего значения счётчика.
+✓ Секундомер, с функцией автозапуска при приращивании значения счётчика.
+✓ Модификация, использующая аппаратные клавиши громкости для изменения значений счётчика.
+✓ Виброотклик сенсорных нажатий и аппаратных клавиш.
+✓ Светлая и темная тема в приложении.
+✓ Опция по изменению названия, значения и времени счётчика.
+✓ Возможность экспорта счётчиков и времени в формате CSV.
+✓ Отличная производительность.
+✓ Без рекламы.
+✓ Лаконичный дизайн.
+✓ Приложение не требует лишних разрешений (мы заботимся о вашей конфиденциальности).
+✓ Небольшой размер приложения (мы также заботимся о свободном пространстве на вашем устройстве).
 
-Counter is a *simple* [tally counter](https://en.wikipedia.org/wiki/Tally_counter) for Android. It
-makes counting easier. You can have multiple counters with their own names and values. Values can be
-changed using the volume buttons.
-
-**Counter is available on [Play Store](https://play.google.com/store/apps/details?id=me.tsukanov.counter)
-and [F-Droid](https://f-droid.org/repository/browse/?fdid=me.tsukanov.counter).**
-
-![](https://cloud.githubusercontent.com/assets/460525/19927344/a0c98c5e-a0f9-11e6-9703-f48e18f57209.png)
-
-## Contributing
-
-Feel free to make improvements, report issues, and create pull requests. If you want to help with
-translation, go to project's [page on Crowdin](http://crowdin.net/project/simple-counter) (please,
-don't translate resources directly).
-
-Huge thanks to all [contributors](https://github.com/gentlecat/counter/contributors)
-and [translators](https://crowdin.net/project/simple-counter).
-
-## What was used
-
-* Application icon made by [Dawid Tarasiuk](https://plus.google.com/u/0/105243332659178233856)
-* Sounds from [adobeflash.com](https://www.adobeflash.com/download/sounds/clicks/)
