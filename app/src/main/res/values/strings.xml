@@ -81,6 +81,7 @@
   <string name="toast_no_name_message">Name is required!</string>
   <string name="toast_unable_to_modify">Something went wrong while updating the counter. Sorry!</string>
   <string name="toast_unable_to_export">Something went wrong while exporting the counters. Sorry!</string>
+  <string name="toast_unable_to_speech_on">Your device not supported voice acting</string>
 
   <!-- Other stuff -->
   <string name="default_counter_name">New counter</string>

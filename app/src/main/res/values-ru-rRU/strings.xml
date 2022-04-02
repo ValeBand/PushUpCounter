@@ -73,6 +73,7 @@
   <string name="toast_no_name_message">Имя не может быть пустым!</string>
   <string name="toast_unable_to_export">Что-то пошло не так во время экспорта.</string>
   <string name="toast_unable_to_modify">Что-то пошло не так во время установки значения счётчика</string>
+  <string name="toast_unable_to_speech_on">Ваш телефон не поддерживает голосовую озвучку</string>
   <!-- Other stuff -->
   <string name="default_counter_name">Счётчик</string>
   <string name="unknown">Неизвестно</string>

@@ -27,6 +27,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -160,9 +161,11 @@ public class CounterFragment extends Fragment implements SensorEventListener {
     }
     int result = textToSpeech.setLanguage(language);
     if (result == TextToSpeech.LANG_MISSING_DATA) {
+      Toast.makeText(getActivity(), getResources().getText(R.string.toast_unable_to_speech_on), Toast.LENGTH_SHORT).show(); // если устройство не поддерживает озвучку, вывожу сообщение
       textToSpeechReady = false;
       return;
     } else if (result == TextToSpeech.LANG_NOT_SUPPORTED) {
+      Toast.makeText(getActivity(), getResources().getText(R.string.toast_unable_to_speech_on), Toast.LENGTH_SHORT).show(); // если устройство не поддерживает озвучку, вывожу сообщение
       textToSpeechReady = false;
       return;
     } else {
@@ -443,7 +446,7 @@ public class CounterFragment extends Fragment implements SensorEventListener {
       }
 
       // Запуск секундомера вместе со счётчиком, если не включена инверсия
-      if (counter.isStop() && sharedPrefs.getBoolean(SharedPrefKeys.AUTO_STOPWATCH_ON.getName(), true) && !sharedPrefs.getBoolean(SharedPrefKeys.INVERSE_COUNTER_ON.getName(), true))
+      if (counter.isStop() && sharedPrefs.getBoolean(SharedPrefKeys.AUTO_STOPWATCH_ON.getName(), true) && !sharedPrefs.getBoolean(SharedPrefKeys.INVERSE_COUNTER_ON.getName(), false))
         startChronometer();
 
       // Обновить интерфейс и сохранить значение в памяти
@@ -480,7 +483,7 @@ public class CounterFragment extends Fragment implements SensorEventListener {
         speakOut(String.valueOf(counter.getValue()));
     }
     // Запуск секундомера вместе со счётчиком, если включена инверсия
-    if (counter.isStop() && sharedPrefs.getBoolean(SharedPrefKeys.AUTO_STOPWATCH_ON.getName(), true) && sharedPrefs.getBoolean(SharedPrefKeys.INVERSE_COUNTER_ON.getName(), true))
+    if (counter.isStop() && sharedPrefs.getBoolean(SharedPrefKeys.AUTO_STOPWATCH_ON.getName(), true) && sharedPrefs.getBoolean(SharedPrefKeys.INVERSE_COUNTER_ON.getName(), false))
       startChronometer();
     // Обновить интерфейс и сохранить значение в памяти
     invalidateUI();
